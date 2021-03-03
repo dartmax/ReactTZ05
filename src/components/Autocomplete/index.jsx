@@ -125,10 +125,9 @@ const AutocompleteComponent = ({
         </form>
       </Paper>
       <div>My favorite:</div>
-      {selectedList.map((items, index) => { /*ТОДО список*/
-        console.log('selectedList.map item', items)
+      {selectedList.map((items, index) => {
         return (
-          <Paper key={index} className="item-list"> {/* получаем плюч по ID*/}
+          <Paper key={index} className="item-list">
             <div className={"item-text"}>
               <div>
                 <Avatar>{listToAvatar(items.avatar)}</Avatar>
@@ -144,5 +143,5 @@ const AutocompleteComponent = ({
     </div>
   );
 };
-debugger;
+
 export default AutocompleteComponent;

@@ -3,7 +3,6 @@ import {all, takeLatest, call, put} from 'redux-saga/effects';
 import {getDataFromApi} from '../utils/Client';
 import {GET_DATA, GET_DATA_FAILURE, GET_DATA_SUCCESS} from "../redux/types";
 
-// Get DATA
 export function* getData() {
   try {
     const response = yield call(getDataFromApi);
@@ -19,7 +18,7 @@ export function* getData() {
 
   }
 }
-debugger;
+
 export default function* root() {
   yield all([takeLatest(GET_DATA, getData)]);
 }

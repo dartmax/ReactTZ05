@@ -1,6 +1,6 @@
 # Pet project: TZ-05
 
-[https://dartmax.github.io/ReactSocialNetwork/](https://dartmax.github.io/ReactSocialNetwork/)
+[https://dartmax.github.io/ReactTZ05/](https://dartmax.github.io/ReactTZ05/)
 
 ### `The main task of the project:`
 The user enters the title of the article into the search.
