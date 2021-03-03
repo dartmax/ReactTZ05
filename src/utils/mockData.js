@@ -13,11 +13,21 @@ export const ArticlesFromUrl = JSON.stringify({
     {
       id: 'id-2',
       name: 'Article-2',
-      avatar: 'AR02',
+      avatar: 'AM',
       author: {
-        firstName: 'FName02',
-        lastName: 'LName02',
-        avatar: 'AD02',
+        firstName: 'Astra',
+        lastName: 'Zeneca',
+        avatar: 'AO',
+      },
+    },
+    {
+      id: 'id-3',
+      name: 'Bill List 3',
+      avatar: 'AL',
+      author: {
+        firstName: 'Bill',
+        lastName: 'Gardner',
+        avatar: 'AI',
       },
     },
   ],

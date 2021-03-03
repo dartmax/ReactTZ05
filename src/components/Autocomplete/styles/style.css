@@ -21,3 +21,18 @@
     border-width: 1px;
     background-color: #e7eff6 ;
 }
+
+.item-list .item-delete {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    font-size: 22px;
+    position: relative;
+    left: -4px;
+    bottom: 5px;
+}
+
+.item-text {
+    display: inline-block;
+    cursor: pointer;
+}

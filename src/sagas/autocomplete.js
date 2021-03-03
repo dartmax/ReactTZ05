@@ -7,7 +7,6 @@ import {GET_DATA, GET_DATA_FAILURE, GET_DATA_SUCCESS} from "../redux/types";
 export function* getData() {
   try {
     const response = yield call(getDataFromApi);
-    console.log('response', response)
     yield put({
       type: GET_DATA_SUCCESS,
       payload: response,
