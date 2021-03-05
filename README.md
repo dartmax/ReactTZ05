@@ -3,7 +3,7 @@
 [https://dartmax.github.io/ReactTZ05/](https://dartmax.github.io/ReactTZ05/)
 
 ### `The main task of the project:`
-The user enters the title of the article into the search.
+The user enters the title of the article into the search, and gets it when the button is pressed 
 
 ### `Description of the project:`
 Implement with React, Redux / Sagas.
